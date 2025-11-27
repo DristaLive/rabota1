@@ -52,19 +52,19 @@ int main() {
                 bool found = false;
 
                 if (b == a1 && a1 != -1) {
-                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДОНО" << endl;
+                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДАНО" << endl;
                     a1 = -1;
                     guessed++;
                     found = true;
                 }
                 else if (b == a2 && a2 != -1) {
-                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДОНО" << endl;
+                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДАНО" << endl;
                     a2 = -1;
                     guessed++;
                     found = true;
                 }
                 else if (b == a3 && a3 != -1) {
-                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДОНО" << endl;
+                    cout << "ВЕРНО! ЧИСЛО " << b << " УГАДАНО" << endl;
                     a3 = -1;
                     guessed++;
                     found = true;
@@ -103,4 +103,5 @@ int main() {
     }
 
     return 0;
+}
 }
